@@ -87,4 +87,17 @@ public class Pet {
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "Id=" + Id +
+                ", name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", types=" + types +
+                ", sex=" + sex +
+                ", age=" + age +
+                ", birthDate=" + birthDate +
+                '}';
+    }
 }
